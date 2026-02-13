@@ -1,19 +1,36 @@
+# 📘 Assignment: Hangman Game Challenge
 
-# 🎮 Hangman Game Challenge
+## 🎯 Objective
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+Build a classic Hangman game in Python. In this assignment, you will practice working with strings, loops, conditionals, and user input while creating a complete playable game.
 
-## � What You'll Build
+## 📝 Tasks
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+### 🛠️	Build the Hangman Game Loop
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+#### Description
+Create a Hangman game where the computer selects a random word and the player guesses one letter at a time until they either reveal the full word or run out of attempts.
 
-## ✅ Must Have's
+#### Requirements
+Completed program should:
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+- Randomly select one word from a predefined list of words.
+- Accept one letter guess per turn from the player.
+- Show the current word progress using placeholders for unguessed letters (for example: `_ _ a _ _`).
+- Track and display the number of incorrect guesses remaining.
+- End the game with a clear win message when the word is guessed.
+- End the game with a clear lose message when attempts are exhausted.
+
+
+### 🛠️	Handle Input and Game Rules
+
+#### Description
+Improve your game logic so that input is handled correctly and repeated guesses do not break the game experience.
+
+#### Requirements
+Completed program should:
+
+- Validate player input so only a single alphabetical character is accepted.
+- Handle repeated guesses by informing the player and keeping game state accurate.
+- Keep guessed letters visible to help the player make informed choices.
+- Continue running until a win or lose condition is reached.
